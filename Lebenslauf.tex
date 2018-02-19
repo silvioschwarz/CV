@@ -1,0 +1,215 @@
+%%%% This CV has been greatly influence by
+%%%% the extended fancy cv from Carmine Benedetto.
+%%%% I thank him for the excellent work. Unfortunately 
+%%%% it wouldn't compile on my machine. So I worked it out myself.
+
+\documentclass{article} 
+\usepackage[ngerman]{babel}% deutsche Trennregeln
+\usepackage{microtype}% verbesserter Randausgleich
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[obeyspaces]{url} 
+\usepackage[left=0.5cm,top=0.5cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+
+\usepackage{fontawesome}
+
+
+\makeatletter
+\setlength{\@fptop}{40pt}
+\makeatother
+
+\usepackage{pdfcomment}
+% Fix incorrect display of tooltips (http://tex.stackexchange.com/a/74340/3323)
+\makeatletter
+\renewcommand{\pc@annot@tooltip}%
+{%
+  /TU (\pc@pdfenc@contents)\space%
+  /T (tooltip \thezref@unique)\space%
+  /C [0 0 0]\space%
+  /FT/Btn\space%
+  /Ff 65536\space%
+  /H/N\space%
+}%
+
+  
+\definecolor{white}{RGB}{255,255,255}
+\definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
+
+\definecolor{darkgray}{HTML}{333333}
+\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{lightgray}{HTML}{999999}
+
+\definecolor{green}{HTML}{C2E15F}
+\definecolor{orange}{HTML}{FDA333}
+\definecolor{purple}{HTML}{D3A4F9}
+\definecolor{red}{HTML}{FB4485}
+\definecolor{blue}{HTML}{6CE0F1}
+\definecolor{pblue}{HTML}{0395DE}
+
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{tikz}
+\newcommand*{\ClipSep}{0.2cm}%
+
+
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+ 
+\pagestyle{empty}
+
+\begin{document}
+\vspace{-0.5cm}
+\begin{mdframed}[backgroundcolor=anti-flashwhite]
+	\begin{minipage}[t]{0.4\textwidth}
+	{\fontsize{30pt}{62pt}\color{gray} \selectfont {Silvio}{\textbf{Schwarz}}}\\
+    {\fontsize{14pt}{24pt}\color{pblue} \selectfont Geophysicist \color{lightgray} (B.Sc.)}\\\\
+    Philosophy:
+    \begin{itemize}
+    \item open-source, performance-based
+    \item failure is part of the process
+    \item reliability beats sophistication
+    \end{itemize}
+	\end{minipage}
+	\hfill
+	\vrule
+	\hfill
+	\begin{minipage}[t]{0.2\textwidth}
+	\vspace{0cm}
+	\begin{tikzpicture}
+\node [inner sep=0pt] at (0,0) {\includegraphics[trim=0cm 8cm 0cm 0cm, clip,scale = 0.1]{img/ich2.jpg}};
+\draw [anti-flashwhite, rounded corners=\ClipSep, line width=\ClipSep] 
+    (current bounding box.north west) -- 
+    (current bounding box.north east) --
+    (current bounding box.south east) --
+    (current bounding box.south west) -- cycle
+    ;
+\end{tikzpicture}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\textwidth}
+	{\color{pblue}Adresse}\\
+	Zeppelinstraße 162, 3.2\\
+	14471 Potsdam. Deutschland\\\\
+	{\color{pblue}Telefon}\\
+	01746507598\\\\
+	{\color{pblue}Email}\\
+	\href{mailto:silvio\_ schwarz@web.de}{silvio{\_}schwarz@web.de}\\\\
+	{\color{pblue}Web}\\
+	\faGithub  \hfill \faSkype \hfill \faLinkedin \hfill \faGithubAlt
+	\end{minipage}
+\end{mdframed}
+\begin{minipage}[t]{0.2\textwidth}
+	\flushright
+	\section*{\hfill \color{pblue} OS Preferences}
+	\vspace{-2mm}
+	\textbf{\faLinux}\includegraphics[scale=0.40]{img/5stars.png}
+	\textbf{\faWindows}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{\faApple}\includegraphics[scale=0.40]{img/1stars.png}\\
+~
+	\section*{\hfill \color{pblue} Languages}
+	\vspace{-2mm}
+	\textbf{German}\includegraphics[scale=0.40]{img/5stars.png}
+	\textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Italian}\includegraphics[scale=0.67]{img/3stars.png}
+    \textbf{French}\includegraphics[scale=0.40]{img/2stars.png}
+\end{minipage}
+\hfill
+\vrule
+\hfill
+\begin{minipage}[t]{0.7\textwidth}
+		\section*{\fontsize{18pt}{24pt}\selectfont \color{pblue} Education}
+		\begin{minipage}{0.3\textwidth}
+	\textbf{\underline{Master of Science}} \faHourglassHalf\\
+	Geowissenschaften\\
+	Geophysik\\\\
+	\textbf{\underline{Thesis}}:\\\\\\
+	Universität Potsdam\\
+	10/2011 - Present
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.3\textwidth}
+	\textbf{\underline{\href{https://www.dropbox.com/s/297g1chiby8mrd3/Bachelor-Certificate.pdf?dl=0}{Bachelor of Science}}} \faGraduationCap\\
+	Geowissenschaften\\\\\\
+	\textbf{\underline{Thesis}}:\\
+	\href{https://www.dropbox.com/s/3kngo4hpb0c47ww/Bachelorarbeit.pdf?dl=0}{\pdftooltip{Simulation von Bodenbewegungsszenarien von Starkbeben (German)}{engl.: Simulating Ground Motion Scenarios of strong Earthquakes}}\\
+	    Thesis activity was carried out during a position as student research assistant at University Potsdam.\\\\
+Universität Potsdam\\
+{10/2008 - 09/2011}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.3\textwidth}
+	\textbf{\underline{\href{https://www.dropbox.com/s/nsgmvy7o64xb9si/Abiturzeugnis.pdf?dl=0}{Abitur}}} \faGraduationCap\\
+	Mathematik\\
+	Geografie\\\\
+	\textbf{\underline{Thesis}}:\\
+	 \pdftooltip{Naturkatastrophen und ihr Einfluss auf das Leben in der Gegenwart (German)}{engl.: Natural Disasters and their Impact on Life in the Present}\\\\
+staatl. Gymnasium "klosterschule" Roßleben\\
+08/2000 - 05/2008
+		\end{minipage}
+		\hrule
+		\section*{\fontsize{18pt}{24pt}\selectfont \color{pblue} Experience}
+		
+		\begin{minipage}[t]{0.3\textwidth}
+		12/2017 - 08/2018\\ (9 Months)
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Student Research Assistent}\hfill \href{https://gfz-potsdam.de/}{\color{pblue}GFZ Potsdam}\\
+	    Seismology
+		\end{minipage}\vspace{0.5cm}
+		
+		\begin{minipage}[t]{0.3\textwidth}
+		08/2014 - 06/2015\\ (11 Months)
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Student Employee}\hfill \href{https://assecor.de/}{\color{pblue}Assecor GmbH}\\
+	    Support in documentation of the power supply system of Berlin, Germany for Vattenfall Europe Sales GmbH
+		\end{minipage}\vspace{0.5cm}
+		
+		\begin{minipage}[t]{0.3\textwidth}
+		11/2013 - 03/2014 \\ (5 Months)
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Student Employee}\hfill \href{https://assecor.de/}{\color{pblue}Assecor GmbH}\\
+	    Migration of IT Infrastructure to Windows 7 for\\ BIOTRONIK SE \& Co. KG
+		\end{minipage}\vspace{0.5cm}
+
+		\begin{minipage}[t]{0.3\textwidth}
+		09/2012 - 11/2012 \\ (3 Months)
+		\end{minipage}		
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Internship}\hfill \href{https:///www.wolframalpha.com/}{\color{pblue}Wolfram$\mid$Alpha}\\
+	    Research and Development\\
+	    Development of geophysical content for Wolfram$\mid$Alpha
+		\end{minipage}\vspace{0.5cm}
+		
+		\begin{minipage}[t]{0.3\textwidth}
+		06/2011 - 08/2012 \\ (1 Year 3 Months)
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Student Research Assistant}\hfill \href{https://www.uni-potsdam.de/}{\color{pblue}Universität Potsdam}\\
+	    Geophysical prospection, seismological model building, consulting for the Council for Geoscience, Pretoria, South Africa
+		\end{minipage}\vspace{0.5cm}
+		
+		\begin{minipage}[t]{0.3\textwidth}
+		03/2010 - 05/2010 \\ (3 Months)
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.7\textwidth}
+		\textbf{Student Research Assistant}\hfill \href{https://www.uni-potsdam.de/}{\color{pblue}Universität Potsdam}\\
+	    Testing Mathematica routines used for seismic hazard assesment
+		\end{minipage}
+\end{minipage}
+\end{document}
