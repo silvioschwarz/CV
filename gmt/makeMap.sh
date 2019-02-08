@@ -1,16 +1,26 @@
 #!/bin/sh
 
-ps=example_44.ps
+gmt set FORMAT_GEO_MAP ddd:mm:ssF
+gmt set FONT_ANNOT_PRIMARY 11p
+gmt set FONT_LABEL 14p
 
-# Determine size of insert map of Europe
-gmt mapproject -R15W/35E/30N/48N -JM2i -W > tmp
+
+ps="globalEXP.ps"
+
+
+gmt pscoast -R27W/30E/36N/68N -JM6i -P -B0 -G252/245/227 -W1/0.5p,0/0/0 -N1/0.5p,0/0/0 -N2/0.25p,120/120/120,2_1:0p -S255/255/255  -Dl -K -Xc --FORMAT_GEO_MAP=dddF --MAP_FRAME_TYPE=plain > $ps
+cat cities.txt | gmt pstext -R -J -O -K >> $ps
+cat points.txt | gmt psxy -R -J -O -Sc0.4c -Gred -X-0.25  -K>> $ps
+
+gmt mapproject -R-129/-63/23/51 -JM2i -W > tmp
 read w h < tmp
-gmt pscoast -R10W/5E/35N/44N -JM6i -Baf -BWSne -EES+gbisque -Gbrown -Wfaint -N1/1p -Sazure1 -Df -O -K -Y4.5i --FORMAT_GEO_MAP=dddF >> $ps
-gmt psbasemap -R -J -O -K -DjTR+w$w/$h+o0.15i/0.1i+stmp -F+gwhite+p1p+c0.1c+s >> $ps
+gmt psbasemap -X-10 -Y-3.5 -R -J -O -K -DjTR+w$w/$h+o0.15i -F+gwhite+p1p+c0.1c+s >> $ps
 read x0 y0 w h < tmp
-gmt pscoast -R15W/35E/30N/48N -JM$w -Da -Gbrown -B0 -EES+gbisque -O -K -X$x0 -Y$y0 --MAP_FRAME_TYPE=plain >> $ps
-gmt psxy -R -J -O -T -X-${x0} -Y-${y0} >> $ps
-rm -f tmp
+gmt pscoast -R-129/-63/23/51 -JM4i -Da -G252/245/227 -W1/0.5p,0/0/0 -N1/0.5p,0/0/0 -N2/0.25p,120/120/120,2_1:0p -S255/255/255  -B0 -EES+gbisque -O -K -X10.25 -Y12.75 --MAP_FRAME_TYPE=plain >> $ps
 
-#ps2pdf $post globalExp.pdf
-#pdfcrop globalExp.pdf ../img/globalExp.pdf
+cat cities.txt | gmt pstext -R -J -O -K >> $ps
+cat points.txt | gmt psxy -R -J -O -Sc0.4c -Gred -X-0.25 >> $ps
+
+
+ps2pdf globalEXP.ps globalEXP.pdf
+pdfcrop globalEXP.pdf ../img/globalEXP.pdf
