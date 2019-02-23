@@ -1,4 +1,7 @@
 # Lebenslauf
+
+![eqd](LebenslaufGER.pdf)
+
 <img src="https://github.com/silvioschwarz/Lebenslauf/blob/master/LebenslaufGER.pdf" alt="some text"  width="420" height="420">
 
 
