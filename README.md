@@ -1,3 +1,3 @@
 # Lebenslauf
 
-![eqd](tex/LebenslaufGER.png)
+![eqd](tex/Lebenslauf.png)
