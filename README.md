@@ -1,3 +1,3 @@
-# Lebenslauf
+# CV
 
 ![eqd](tex/Lebenslauf.png)
