@@ -1,2 +1,2 @@
-convert -flatten -density 150 Lebenslauf.pdf -quality 90 Lebenslauf.png
+convert -flatten -density 150 $1 -quality 90 $2
 
