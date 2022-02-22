@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,roman]{moderncv}      
+\usepackage[ngerman]{babel}
+
+
+
+\moderncvstyle{classic}                            
+\moderncvcolor{green}      
+\definecolor{pblue}{HTML}{0395DE}
+                      
+
+% character encoding
+\usepackage[utf8]{inputenc}                     
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\name{Silvio}{Schwarz}
+
+
+\phone[mobile]{+49 174 6507598}               
+\email{silvio{\_}schwarz@web.de}                             
+
+
+\begin{document}
+\recipient{~}{ }
+\date{\today}
+\opening{\textbf{Bewerbung Ausbildung zum Biologielaborant (m/w/d)
+}}
+\closing{Ich freue mich auf Ihre Antwort und stehe für mögliche Nachfragen zur Verfügung.}
+\enclosure[Anhang]{Lebenslauf, Abiturzeugnis, Bachelorzeugnis}
+\makelettertitle
+
+
+% The first paragraph of your job application letter should include information on why you are writing. Mention the job you are applying for and where you found the position. If you have a contact at the company, mention the person's name and your connection here.
+Sehr geehrte Dame oder Herr,\\
+den Dingen auf den Grund gehen, Vorgänge in der Natur präzise beobachten um daraus im Großen wie im Kleinen auf komplexe Zusammenhänge zu schlussfolgern - das sind nur einige Gründe, deswegen ich mich freue, mich heute bei Ihnen für die Ausbildung als Biologielaborant bewerben zu dürfen.\\
+\vspace{5mm}
+Bereits während meiner Schulzeit legte ich den Schwerpunkt meines Abiturs auf Naturwissenschaften und konnte diesen durch einen Bachelorabschluss in Geowissenschaften im Jahr 2011 vertiefen. Dabei begeisterte mich besonders die praktische Arbeit während Chemie- und Physikpraktika sowie die Mikroskoparbeit zur Identifizierung von Gesteinsdünnschliffen.\\
+Den anschließenden Masterstudiengang absolvierte ich erfolgreich bis zur Masterarbeit, schied jedoch auf Grund gesundheitlicher Probleme aus dem Studium aus. In der Folgezeit reifte in mir der Wunsch nach einer größeren praktischen Tätigkeit, die ich in Ihrer Ausschreibung verwirklicht sehe.
+Besonders interessiere ich mich für die verschiedenen Analysemethoden und Nachweisverfahren, sowie der  Arbeit mit verschiedenen Messinstrumenten.\\
+\vspace{5mm}
+%über den Stellenmarkt der AWI Webseite habe ich von der Ausschreibung als Programmierer/in Visualisierung erfahren und fand sie interessant.\\ Auf Grund meines Geowissenschaftsstudiums und mehrjähriger Programmiererfahrung denke ich, dass ich ein geeigneter Kandidat bin. Deswegen möchte ich mich gerne bewerben.\\
+%\vspace{5mm}
+%Besonders hat mich an der Stellenbeschreibung die Entwicklung von interaktiven/nutzerfreundlichen Karten angesprochen. Bereits in meiner Position als studentischer Hilfkraft für Prof. Scherbaum kam der Visualisierung von Daten ein hoher Stellenwerk zu und ich habe die Ergebnisse meiner Bachlorarbeit nochmals in einer \href{https://earthquake-distances.herokuapp.com/}{\color{pblue}\underline{interaktiven Webumgebung}} überarbeitet (EQDist). Desweiteren habe ich 2019 an einem Hackathon des HPI teilgenommen, in dem innerhalb von 22 Stunden eine \href{https://earthquake-distances.herokuapp.com}{\color{pblue}\underline{interaktive Karte}} bewaffneter Konflikte in Afrika entstand (TerrorXAfrica).\\
+%\vspace{5mm}
+%
+%In Matlab, Python und Shell scripting habe ich einen routinierten Umgang und Java-Script im Rahmen von der Echtzeit-Darstellung von Sensordaten verwendet. In mehrere Kurse während
+%meines Studium habe ich mich mit Geoinformationssystemen beschäftigt.\\
+Meinen Arbeitsstil würde ich als problemorientiert und präzise beschreiben und sehe in Ihrer Ausschreibung eine optimale Möglichkeit, mich weiterzuentwickeln. Durch mein Studium bin ich bereits bestens mit wissenschaftlicher Arbeit vertraut und besitze ein umfangreiches naturwissenschaftliches Vorwissen.
+Deswegen finde ich auch die Möglichkeit einer Verkürzung der Ausbildungsdauer interessant.
+
+\vspace{1.7cm}
+
+
+\makeletterclosing
+
+\end{document}

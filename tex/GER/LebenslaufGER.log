@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.5)  17 FEB 2021 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.16)  17 JAN 2022 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,7 +740,7 @@ File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 71.
+Package hyperref Info: Option `colorlinks' set `false' on input line 75.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
@@ -750,32 +750,32 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./LebenslaufGER.aux)
 \openout1 = `LebenslaufGER.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Info: Redefining \microtypecontext on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Info: Redefining \microtypecontext on input line 81.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 77.
+LaTeX Info: Redefining \showhyphens on input line 81.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -815,11 +815,11 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(14.22636pt, 585.84227pt, 14.22636pt)
-* v-part:(T,H,B)=(0.0pt, 789.27953pt, 5.69046pt)
+* v-part:(T,H,B)=(0.0pt, 780.74362pt, 14.22636pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=585.84227pt
-* \textheight=789.27953pt
+* \textheight=780.74362pt
 * \oddsidemargin=-58.04362pt
 * \evensidemargin=-58.04362pt
 * \topmargin=-72.26999pt
@@ -840,7 +840,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package soulpos Info: Loading soulutf8 on input line 77.
+Package soulpos Info: Loading soulutf8 on input line 81.
 (/usr/share/texlive/texmf-dist/tex/generic/soulutf8/soulutf8.sty
 Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
 
@@ -857,7 +857,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen271
 ))
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 77.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -867,9 +867,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./LebenslaufGER.out) (./LebenslaufGER.out)
 \@outlinefile=\write5
@@ -880,147 +880,127 @@ ABD: EveryShipout initializing macros
 <../../img/ichich2.png, id=31, 96.36pt x 130.086pt>
 File: ../../img/ichich2.png Graphic file (type png)
 <use ../../img/ichich2.png>
-Package pdftex.def Info: ../../img/ichich2.png  used on input line 83.
-(pdftex.def)             Requested size: 112.2169pt x 128.7878pt.
+Package pdftex.def Info: ../../img/ichich2.png  used on input line 87.
+(pdftex.def)             Requested size: 88.65077pt x 100.04626pt.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 91.
+ut line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 104.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
-)
-<../../img/kaggle.png, id=39, 6.0225pt x 11.29219pt>
-File: ../../img/kaggle.png Graphic file (type png)
-<use ../../img/kaggle.png>
-Package pdftex.def Info: ../../img/kaggle.png  used on input line 107.
-(pdftex.def)             Requested size: 6.02248pt x 11.29214pt.
-
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 115.
-
-
-Overfull \hbox (20.94913pt too wide) in paragraph at lines 115--115
- [][][]\OT1/cmr/bx/n/17.28 Programmierung 
- []
+(Font)              size <17.28> substituted on input line 121.
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 117.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 123.
 
-<../../img/5stars.png, id=41, 122.4575pt x 24.09pt>
+<../../img/5stars.png, id=35, 122.4575pt x 24.09pt>
 File: ../../img/5stars.png Graphic file (type png)
 <use ../../img/5stars.png>
-Package pdftex.def Info: ../../img/5stars.png  used on input line 117.
+Package pdftex.def Info: ../../img/5stars.png  used on input line 123.
 (pdftex.def)             Requested size: 61.22859pt x 12.04495pt.
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
+nput line 124.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
+)
 
 LaTeX Font Warning: Font shape `U/fontawesomethree/bx/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 118.
+(Font)              using `U/fontawesomethree/m/n' instead on input line 124.
 
-<../../img/3stars.png, id=42, 122.4575pt x 23.08624pt>
+<../../img/3stars.png, id=37, 122.4575pt x 23.08624pt>
 File: ../../img/3stars.png Graphic file (type png)
 <use ../../img/3stars.png>
-Package pdftex.def Info: ../../img/3stars.png  used on input line 118.
+Package pdftex.def Info: ../../img/3stars.png  used on input line 124.
 (pdftex.def)             Requested size: 61.22859pt x 11.54308pt.
-
-Overfull \hbox (15.81776pt too wide) in paragraph at lines 135--136
- [][] 
- []
-
 File: ../../img/5stars.png Graphic file (type png)
 <use ../../img/5stars.png>
-Package pdftex.def Info: ../../img/5stars.png  used on input line 146.
-(pdftex.def)             Requested size: 61.22859pt x 12.04495pt.
-File: ../../img/5stars.png Graphic file (type png)
-<use ../../img/5stars.png>
-Package pdftex.def Info: ../../img/5stars.png  used on input line 147.
-(pdftex.def)             Requested size: 61.22859pt x 12.04495pt.
+Package pdftex.def Info: ../../img/5stars.png  used on input line 154.
+(pdftex.def)             Requested size: 61.22859pt x 9.19974pt.
+<../../img/4stars.png, id=39, 122.4575pt x 24.09pt>
+File: ../../img/4stars.png Graphic file (type png)
+<use ../../img/4stars.png>
+Package pdftex.def Info: ../../img/4stars.png  used on input line 155.
+(pdftex.def)             Requested size: 61.22859pt x 9.9111pt.
 File: ../../img/3stars.png Graphic file (type png)
 <use ../../img/3stars.png>
-Package pdftex.def Info: ../../img/3stars.png  used on input line 148.
-(pdftex.def)             Requested size: 61.22859pt x 11.54308pt.
-<../../img/2stars.png, id=43, 122.4575pt x 23.08624pt>
+Package pdftex.def Info: ../../img/3stars.png  used on input line 156.
+(pdftex.def)             Requested size: 61.22859pt x 8.69786pt.
+<../../img/2stars.png, id=42, 122.4575pt x 23.08624pt>
 File: ../../img/2stars.png Graphic file (type png)
 <use ../../img/2stars.png>
-Package pdftex.def Info: ../../img/2stars.png  used on input line 149.
-(pdftex.def)             Requested size: 61.22859pt x 11.54308pt.
+Package pdftex.def Info: ../../img/2stars.png  used on input line 157.
+(pdftex.def)             Requested size: 61.22859pt x 8.69786pt.
 
-Overfull \hbox (21.3974pt too wide) in paragraph at lines 164--166
+Overfull \hbox (6.71765pt too wide) in paragraph at lines 171--173
  [] 
  []
 
-<../../img/wordcloudGER.pdf, id=44, 844.98082pt x 597.45609pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 178.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 178.
+<../../img/wordcloudGER.pdf, id=48, 844.98082pt x 597.45609pt>
 File: ../../img/wordcloudGER.pdf Graphic file (type pdf)
 <use ../../img/wordcloudGER.pdf>
-Package pdftex.def Info: ../../img/wordcloudGER.pdf  used on input line 170.
-(pdftex.def)             Requested size: 147.57494pt x 113.51897pt.
-
-Overfull \hbox (24.54413pt too wide) in paragraph at lines 170--171
- [] 
- []
-
+Package pdftex.def Info: ../../img/wordcloudGER.pdf  used on input line 192.
+(pdftex.def)             Requested size: 115.94331pt x 89.187pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <30> not available
-(Font)              size <24.88> substituted on input line 179.
+(Font)              size <24.88> substituted on input line 202.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <30> not available
-(Font)              size <24.88> substituted on input line 179.
+(Font)              size <24.88> substituted on input line 202.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 189.
+ut line 213.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 189.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 213.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 189.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 189.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 189.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 189.
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--208
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--221
+Underfull \hbox (badness 10000) in paragraph at lines 206--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--221
+Underfull \hbox (badness 10000) in paragraph at lines 206--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--221
+Underfull \hbox (badness 10000) in paragraph at lines 206--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--221
+Underfull \hbox (badness 10000) in paragraph at lines 206--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--373
+Underfull \hbox (badness 10000) in paragraph at lines 342--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--353
 
  []
 
@@ -1029,17 +1009,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--373
 \openout3 = `LebenslaufGER.upa'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../img/ichich2.png> <..
-/../img/wordcloudGER.pdf> <../../img/kaggle.png> <../../img/5stars.png> <../../
-img/3stars.png> <../../img/2stars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
+/../img/5stars.png> <../../img/4stars.png> <../../img/3stars.png> <../../img/2s
+tars.png> <../../img/wordcloudGER.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
  (./LebenslaufGER.aux
 * soulpos - computing points - it may take a few seconds *
 \openout3 = `LebenslaufGER.upb'.
 
  (./LebenslaufGER.upa))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
 Package rerunfilecheck Info: File `LebenslaufGER.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1052,13 +1032,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29729 strings out of 483089
- 561433 string characters out of 5962869
- 862269 words of memory out of 5000000
- 44234 multiletter control sequences out of 15000+600000
- 538531 words of font info for 50 fonts, out of 8000000 for 9000
+ 29730 strings out of 483089
+ 561395 string characters out of 5962868
+ 864206 words of memory out of 5000000
+ 44233 multiletter control sequences out of 15000+600000
+ 536429 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 64i,12n,81p,810b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,9n,81p,810b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 }{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.en
 c}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
@@ -1068,14 +1048,11 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on LebenslaufGER.pdf (1 page, 3605272 bytes).
+nts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on LebenslaufGER.pdf (1 page, 3583300 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 143 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 9367 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
