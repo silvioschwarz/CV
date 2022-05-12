@@ -1,26 +1,23 @@
-INFO: latexindent version 3.7.1, 2019-09-07, a script to indent .tex files
-      latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-      Wed Mar  3 09:58:23 2021
-      Filename: LebenslaufGER.tex
-INFO: Processing switches:
-      -w|--overwrite: Overwrite mode active, will make a back up of LebenslaufGER.tex first
-INFO: Directory for backup files and indent.log: .
-INFO: YAML settings read: defaultSettings.yaml
-      Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
-INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
-      Home directory is /home/silvio (didn't find either indentconfig.yaml or .indentconfig.yaml)
-      To specify user settings you would put indentconfig.yaml here: /home/silvio/indentconfig.yaml
-      Alternatively, you can use the hidden file .indentconfig.yaml as: /home/silvio/.indentconfig.yaml
-INFO: Backup procedure (-w flag active):
-      copying LebenslaufGER.tex to ./LebenslaufGER.bak0
-      Backup file: ./LebenslaufGER.bak0
-      LebenslaufGER.tex will be overwritten after indentation
-INFO: Phase 1: searching for objects
-INFO: Phase 2: finding surrounding indentation
-INFO: Phase 3: indenting objects
-INFO: Phase 4: final indentation check
-INFO: Output routine:
-      Overwriting file LebenslaufGER.tex
-      --------------
-INFO: Please direct all communication/issues to:
-      https://github.com/cmhughes/latexindent.pl
+INFO:  latexindent.exe version 3.16, 2022-03-13, a script to indent .tex files
+       latexindent.exe lives here: C:/texlive/2021/bin/win32/
+       Wed Apr 27 06:53:22 2022
+       Filename: c:\Users\Silvio Schwarz\Documents\GitHub\CV\tex\GER\LebenslaufGERNeu.tex
+INFO:  Processing switches:
+INFO:  Directory for backup files and indent.log: c:\Users\Silvio Schwarz\Documents\GitHub\CV\tex\GER
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/texlive/2021/bin/win32/defaultSettings.yaml
+       Reading defaultSettings.yaml (2nd attempt) from C:/texlive/2021/bin/win32/../../texmf-dist/scripts/latexindent/defaultSettings.yaml
+       and then, if necessary, C:/texlive/2021/bin/win32/LatexIndent/defaultSettings.yaml
+INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
+       Home directory is C:\Users\Silvio Schwarz (didn't find either indentconfig.yaml or .indentconfig.yaml)
+       To specify user settings you would put indentconfig.yaml here: C:\Users\Silvio Schwarz/indentconfig.yaml
+       Alternatively, you can use the hidden file .indentconfig.yaml as: C:\Users\Silvio Schwarz/.indentconfig.yaml
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

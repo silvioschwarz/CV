@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html,
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Roboto", sans-serif;
+ }
+
+ .left-column{
+     height: 100%;
+ }
+
+ .wordcloud{
+  margin: 0;  
+ }
+
+ .wordcloud > img{
+    max-width:100%;
+    max-height:80%;
+    margin: 0px 0px 0px 0px;
+ }
+
+ .gis-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin: 0;
+     padding: 0;
+     column-gap: 0px;
+
+ }
+
+ .gis-item{
+    margin:0px;
+    padding: 0px;
+ }
+
+ .gis-item > ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ .gis-item > h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ ul {
+    margin: 0;
+    padding: 0;
+}
